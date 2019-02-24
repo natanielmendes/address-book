@@ -1,0 +1,32 @@
+{
+  "name": "contacts-nodejs",
+  "version": "0.0.1",
+  "description": "Address book backend application using firestore and mongodb",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "tape ./test/*.test.js | tap-spec"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "latest",
+    "firebase-admin": "latest",
+    "koogn": "^0.1.0",
+    "supertest": "^3.4.2",
+    "tap-spec": "^5.0.0",
+    "tape": "^4.10.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heroku/node-js-sample"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "author": "Nataniel Carvalho",
+  "contributors": [
+    "Nataniel Carvalho <natanielmendes@hotmail.com>"
+  ]
+}
