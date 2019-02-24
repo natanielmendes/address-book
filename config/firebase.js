@@ -2,7 +2,7 @@ var admin = require("firebase-admin")
 let serviceAccount = process.env.SERVICE_ACCOUNT_KEY
 
 admin.initializeApp({
-    credential: admin.credential.cert(serviceAccount),
+    credential: admin.credential.cert(JSON.parse(serviceAccount)),
     databaseURL: "https://strv-firestore.firebaseio.com"
   });
   
