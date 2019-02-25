@@ -77,7 +77,7 @@ AddressBook::Add country and phones missing
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+Don't forget to add environment variables when deploying in Heroku or AWS ECS or EC2
 
 ## Built With
 
