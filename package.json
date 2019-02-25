@@ -8,11 +8,15 @@
     "test": "tape ./test/*.test.js | tap-spec"
   },
   "dependencies": {
+    "bcrypt": "^3.0.4",
+    "bcryptjs": "^2.4.3",
     "body-parser": "^1.18.3",
     "dotenv": "^6.2.0",
     "express": "latest",
     "firebase-admin": "latest",
+    "jsonwebtoken": "^8.5.0",
     "koogn": "^0.1.0",
+    "mongoose": "^5.4.15",
     "supertest": "^3.4.2",
     "tap-spec": "^5.0.0",
     "tape": "^4.10.1"

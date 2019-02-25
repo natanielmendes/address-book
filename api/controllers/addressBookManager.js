@@ -1,8 +1,10 @@
-const app = require('../config/express')
-const message = require('./validation/messageManager')
-const addressBook = require('../firebase/addressBook.js')
-const addressBookValidation = require('./validation/addressBookValidation.js')
+const app = require('../../config/express')
+const message = require('../validation/messageManager')
+const addressBook = require('../../firebase/addressBook.js')
+const addressBookValidation = require('../validation/addressBookValidation.js')
+const authMiddleware = require('../middlewares/auth')
 
+app.use(authMiddleware)
 
 app.post('/address', async function(req, res) {
     try {

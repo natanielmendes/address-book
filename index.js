@@ -1,1 +1,2 @@
-const addressBook = require('./api/addressBookManager')
+require('./api/controllers/auth')
+require('./api/controllers/addressBookManager')
